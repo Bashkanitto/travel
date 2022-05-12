@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(0, 0, 100);
+
+
+}
+
+.container{
+    padding-top: 100px;
+    margin: 0 auto;
+    animation: box;
+    animation-duration: 1.1s;
+}
+/* !-----------------------------------nav---------------------- */
+.nav-center{
+    justify-content: space-between;
+    margin: 0 auto;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+/* !------------------------------------logo------------------*/
+.nav-center-logo{
+
+    border-radius: 100%;
+    font-weight: bold;
+}
+span{
+    color: orangered;
+}
+/* !------------------------------------list-------------------- */
+.nav-center-menu{
+    display: flex;
+}
+.menu-commands{
+    color: grey;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+.active{
+    color: rgb(0, 0, 100);
+    font-weight: 600;
+    text-decoration: none;
+}
+/*? -----------------------------------------closer------------------- */
+.closer{
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 2px solid black;
+    position: absolute;
+    right: 50px;
+    top: 50px;
+}
+
+
+
+
+/* ----------------------------------------main-------------------- */
+/* -----------------------------------table of items--------------- */
+
+.row{
+    margin:0 0 50px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.block{
+    box-shadow: -5px 5px 20px rgba(0,0,0,0.1);
+}
+
+.block input{
+    width: 170px;
+    height: 30px;
+    text-align: center;
+}
+.block::after{
+    color: white;
+    cursor: pointer;
+    Content: "Add";
+    background-color: red;
+    padding: 5px;
+}
+
+
+.block input::placeholder{
+    text-align: center;
+    
+}
+.hiden{
+    visibility: hidden;
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    z-index: 3;
+    padding: 20px;
+    background-color: white;
+}
+.fon{
+    visibility: hidden;
+    background: rgba(0,0,0,0.9);
+    z-index: 2;
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    padding: 500px 5000px 500px;
+}
+.hiden{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.col{
+    display: flex;
+}
+#scrt{
+    text-align: center;
+    width: 50px;
+    height: 50px;
+}
+.left{
+    background-color: grey;
+    padding: 20px;
+}
+.right{
+    background-color: grey;
+    padding: 20px;
+}

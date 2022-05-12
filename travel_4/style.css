@@ -1,0 +1,155 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #000064;
+}
+
+.container {
+  padding-top: 100px;
+  margin: 0 auto;
+  -webkit-animation: box;
+          animation: box;
+  -webkit-animation-duration: 1.1s;
+          animation-duration: 1.1s;
+}
+
+.nav-center {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 auto;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav-center .nav-center-logo {
+  border-radius: 100%;
+  font-weight: bold;
+}
+
+.nav-center span {
+  color: orangered;
+}
+
+/* !------------------------------------list-------------------- */
+.nav-center-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.menu-commands {
+  color: grey;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+.active {
+  color: #000064;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+/*? -----------------------------------------closer------------------- */
+.closer {
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 2px solid black;
+  position: absolute;
+  right: 50px;
+  top: 50px;
+}
+
+
+
+.hiden {
+  visibility: hidden;
+  position: absolute;
+  top: 45%;
+  left: 45%;
+  z-index: 3;
+  padding: 20px;
+  background-color: white;
+}
+
+.fon {
+  visibility: hidden;
+  background: rgba(0, 0, 0, 0.9);
+  z-index: 2;
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  padding: 500px 5000px 500px;
+}
+
+.hiden {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.back{
+    margin: 0 0 0 300px;
+}
+#phon{
+    position: absolute;
+    z-index: -1;
+}
+#person{
+    margin: 50px 0 0 100px;
+    position: absolute;
+    z-index: -1;
+}
+form{
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.email{
+  margin-top: 20px;
+  border-radius: 15px;
+  padding: 20px 60px;
+  text-align: center;
+}
+.ots{
+  margin-top: 200px;
+}
+.log{
+  color: white;
+  text-decoration: none;
+  border: 2px solid white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.fle{
+  display: flex;
+}
+p{
+
+  font-weight: 600;
+  color: white;
+}
+p span a{
+  color: rgb(6, 6, 255);
+}
+label{
+  visibility: hidden;
+}

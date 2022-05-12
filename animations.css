@@ -1,0 +1,51 @@
+
+@keyframes ani{
+    0%{
+
+        position: relative;
+        top: 0px;
+}
+    20%{
+        position: relative;
+        top: -10px;
+        box-shadow: -5px 5px 10px rgba(0,0,0,0.1);
+
+}       
+    40%{
+        position: relative;
+        top: 5px;
+}
+    60%{
+        position: relative;
+        top: -5px;
+}
+    80%{
+        position: relative;
+        top: 2px;
+}
+    100%{
+        position: relative;
+        top: 0px;
+}
+}
+@keyframes box{
+    0%{
+        opacity: 10%;
+        transform: scale(0);
+        transform: translatex(-500px);
+        transition: 0.5s;
+
+    }
+    50%{
+        opacity: 80%;
+        transform: scale(1);
+        transform: translatex(50px);
+        transition: 0.5s;
+    }
+    100%{
+        opacity: 100%;
+        transform: scale(1);
+        transform: translateX(0px);
+        transition: 0.5s;
+    }
+}
